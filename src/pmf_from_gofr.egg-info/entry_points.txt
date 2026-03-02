@@ -1,0 +1,2 @@
+[console_scripts]
+pmf-from-gofr = pmf_from_gofr.cli:main

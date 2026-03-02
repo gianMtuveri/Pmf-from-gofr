@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmf-from-gofr"
+version = "0.1.0"
+description = "Compute PMF-like curves from g(r) .dat files with tail normalization"
+requires-python = ">=3.10"
+dependencies = ["numpy", "matplotlib"]
+
+[project.scripts]
+pmf-from-gofr = "pmf_from_gofr.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[project.optional-dependencies]
+dev = ["pytest"]

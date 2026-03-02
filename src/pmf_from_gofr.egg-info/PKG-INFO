@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: pmf-from-gofr
+Version: 0.1.0
+Summary: Compute PMF-like curves from g(r) .dat files with tail normalization
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: matplotlib
