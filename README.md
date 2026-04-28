@@ -2,7 +2,7 @@
 
 Hydration-consistent reconstruction of effective interaction potentials from radial distribution functions **g(r)**.
 
-This package computes PMF-like profiles using an iterative closure scheme while preserving thermodynamic consistency at long range. It avoids artificial shifts (e.g. `g -= constant`) and instead enforces physically correct asymptotic behavior via tail normalization.
+This package computes PMF-like profiles using an iterative closure scheme (Ornstein-Zernike equations) while preserving thermodynamic consistency at long range. It avoids artificial shifts (e.g. `g -= constant`) and instead enforces physically correct asymptotic behavior via tail normalization.
 
 ---
 
